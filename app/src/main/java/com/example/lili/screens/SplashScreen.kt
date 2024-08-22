@@ -6,6 +6,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -48,10 +49,12 @@ fun SplashScreen(){
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = Modifier.scale(scale.value)
+        modifier = Modifier
+            .fillMaxSize()
+            .scale(scale.value)
     ) {
         Image(painter = painterResource(id = R.drawable.logo),
-            contentDescription = "Logo de Lili"
+            contentDescription = "Logo"
         )
         Text(
             text = "Bienvenidos",
