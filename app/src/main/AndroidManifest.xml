@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Lili.FullScreen"
         tools:targetApi="31">
         <activity
+            android:name=".DetalleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detalle"
+            android:theme="@style/Theme.Lili.FullScreen" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_registro"
+            android:theme="@style/Theme.Lili.FullScreen" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Lili.FullScreen">
@@ -26,8 +36,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Lili.FullScreen">
-        </activity>
+            android:theme="@style/Theme.Lili.FullScreen" />
     </application>
 
 </manifest>

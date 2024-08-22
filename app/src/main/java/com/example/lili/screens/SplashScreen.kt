@@ -15,6 +15,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import com.example.lili.MainActivity
@@ -59,7 +60,7 @@ fun SplashScreen(){
         Text(
             text = "Bienvenidos",
             style = MaterialTheme.typography.titleLarge,
-            color = MaterialTheme.colorScheme.onTertiaryContainer
+            color = Color(0xFF6F334C)
         )
 
     }

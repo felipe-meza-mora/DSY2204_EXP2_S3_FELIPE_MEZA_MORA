@@ -2,6 +2,7 @@
 <resources>
 
     <style name="Theme.Lili" parent="android:Theme.Material.Light.NoActionBar" />
+
     <style name="Theme.Lili.FullScreen" parent="Theme.Lili">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
