@@ -9,9 +9,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
 import androidx.compose.ui.Modifier
-import com.example.lili.screens.SplashScreen
 import com.example.lili.ui.theme.LiliTheme
 
 class MainActivity : ComponentActivity() {
